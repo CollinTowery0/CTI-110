@@ -1,0 +1,17 @@
+#Collin Towery
+#10/03/2023
+#Calculates and displays travel expenses
+
+budget = int(input("Enter Budget: "))
+destination = input("Enter Destinatation: ")
+gas = int(input("Cost of gas: "))
+hotel = int(input("Cost of Hotel: "))
+food = int(input("Cost of food: "))
+
+print("-------Travel Expenses-------")
+print("Initial Budget:", budget)
+print("Fuel:",gas)
+print("Accomadation:", hotel)
+print("Food:", food)
+
+print("Remaining Balance:", (budget - gas - hotel - food))
