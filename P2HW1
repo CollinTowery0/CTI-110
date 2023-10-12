@@ -1,0 +1,16 @@
+#Collin Towery
+#10/05/2023
+#Dictionaries
+
+name = input("Enter your name: ")
+hair = input("Enter your hair color: ")
+eye = input("Enter your eye color: ")
+height = float(input("Enter height as decimal: "))
+age = int(input("Enter your age: "))
+food = input("What is your favorite food: ")
+
+#Create Dictionary
+dic = {"Name": name, "Hair Color": hair, "Eye Color": eye, "Height": height, "Age": age, "Food": food}
+#Get values using the key
+print(f" {dic['Name']} is a {dic['Height']} tall student with {dic['Hair Color']} hair and {dic['Eye Color']} eyes. They are {dic['Age']}
+years old and their favorite food is {dic['Food']}")
