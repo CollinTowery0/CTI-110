@@ -1,6 +1,7 @@
 #Collin Towery
 #10/03/23
 #Input/Output with int
+
 user_num = int(input('Enter integer:\n'))
 print("You entered:", user_num)
 print(user_num, "squared is", (user_num ** 2))
